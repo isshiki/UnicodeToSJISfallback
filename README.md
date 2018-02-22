@@ -1,0 +1,2 @@
+# UnicodeToSJISfallback
+UnicodeのテキストをShift_JISエンコードでファイルに保存するときに、Shift_JISにないUnicode文字をフォールバックして代替文字に置き換えるサンプルプログラム。C#。
