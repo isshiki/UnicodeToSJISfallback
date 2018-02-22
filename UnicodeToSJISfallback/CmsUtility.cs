@@ -103,7 +103,6 @@ namespace InsidersCMS
                 int surrogateChar = 0x10000
                   + ((int)charUnknownHigh - 0xD800) * 0x400
                   + ((int)charUnknownLow - 0xDC00);
-                // validate the range?
 
                 // このクラスでは、エンコードできない文字は「Unicode文字実体参照表記」の文字配列に置き換える。
                 // ちなみに、Unicodeサロゲート文字は1文字あたり4バイト（0x010000～0x10ffff）で、16進数の場合は「&#x+16進数」で表記する。例えば「𪚲」を表すには「&#x02a6b2;」となる。

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using InsidersCMS;
 
-namespace ConsoleApp2
+namespace UnicodeToSJISfallback
 {
     class Program
     {
